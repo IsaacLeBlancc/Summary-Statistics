@@ -21,7 +21,7 @@
 
 
 install.packages("tidyverse")
-install.packages("pastecs")# more stats
+#install.packages("pastecs")# more stats
 
 
 library(tidyverse)
@@ -34,8 +34,13 @@ install.packages(c("nycflights13", "gapminder", "Lahman")) # used
 #--------------------
 # Math
 1 / 200 * 30
+num1=1 / 200 * 30
+(num2=1 / 200 * 30)
+
+
 (59 + 73 + 2) / 3
 sin(pi / 2)
+
 
 # var assignment
 x <- 3 * 4
@@ -44,9 +49,16 @@ x = 3 * 4
 # display var
 x
 
+(y<-cos(1))
+(y<-cos(0))
+(y<-sin(0))
+
+
+
 # calling functions
 # e.g seq()  makes regular sequences of number
 seq(1, 10)
+v=seq(1, 10)
 
 # enclose in parentheses to display automatically after assignment
 (y <- seq(1, 10, length.out = 5))
